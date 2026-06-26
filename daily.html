@@ -1,31 +1,36 @@
 <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Daily Fixed Ops Hotspot Dashboard</title><style>
 body{margin:0;background:#0f1115;color:#f4f6f8;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}header{padding:18px 20px;background:#11141a;border-bottom:1px solid #303642}.wrap{padding:16px;max-width:1200px;margin:auto}h1{margin:0 0 6px;font-size:22px}.sub{color:#a9b1bd;font-size:13px}.cards{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:12px;margin-bottom:14px}.card,.panel{background:#171a21;border:1px solid #303642;border-radius:14px;overflow:hidden}.card{padding:14px}.label{font-size:12px;color:#a9b1bd;text-transform:uppercase}.value{font-size:30px;font-weight:800}.note{font-size:12px;color:#a9b1bd}.panel{margin-bottom:14px}.panel h2{font-size:16px;margin:0;padding:14px;border-bottom:1px solid #303642}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:8px;border-bottom:1px solid #303642;text-align:right;white-space:nowrap}th:first-child,td:first-child{text-align:left}th{background:#1b1f28}.wide{overflow:auto}.pill{border-radius:999px;padding:4px 9px;font-size:12px;font-weight:800}.green{background:#15351f;color:#4ade80}.yellow{background:#3d3212;color:#ffd45a}.red{background:#3f1717;color:#ff6b6b}@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}}</style></head><body>
-<header><h1>AutoSavvy Daily Fixed Ops Hotspot Dashboard</h1><div class="sub">Thursday 6/25 7:58 AM data. Excludes Listed, Transit, Wholesale, Builder, and Builder-SB. DMV included for visibility.</div></header>
-<div class="wrap"><div class="cards"><div class="card"><div class="label">Pre-list units</div><div class="value">987</div><div class="note">Monitored buckets only</div></div><div class="card"><div class="label">Weighted age</div><div class="value">9.6</div><div class="note">Average age across monitored units</div></div><div class="card"><div class="label">Bottleneck pressure</div><div class="value">9,478</div><div class="note">Units × average days</div></div><div class="card"><div class="label">Largest bucket</div><div class="value">Service</div><div class="note">340 internal mech units</div></div></div>
+<header><h1>AutoSavvy Daily Fixed Ops Hotspot Dashboard</h1><div class="sub">Friday 6/26 8:23 AM data. Excludes Listed, Transit, Wholesale, Builder, Builder-SB, and Unwind from monitored pre-list pressure. DMV included for visibility.</div></header>
+<div class="wrap"><div class="cards"><div class="card"><div class="label">Pre-list units</div><div class="value">969</div><div class="note">Monitored buckets only</div></div><div class="card"><div class="label">Weighted age</div><div class="value">9.5</div><div class="note">Average age across monitored units</div></div><div class="card"><div class="label">Bottleneck pressure</div><div class="value">9,198</div><div class="note">Units × average days</div></div><div class="card"><div class="label">Largest bucket</div><div class="value">Service</div><div class="note">288 internal mech units</div></div></div>
 <section class="panel"><h2>Store Hotspot Ranking</h2><div class="wide"><table><thead><tr><th>Store</th><th>Health</th><th>Monitored Units</th><th>Pressure Estimate</th><th>Main Area to Review</th></tr></thead><tbody>
-<tr><td><b>10-GB</b></td><td><span class="pill red">RED</span></td><td>127</td><td>1219</td><td>Service Internal / Processing</td></tr>
-<tr><td><b>05-LV</b></td><td><span class="pill red">RED</span></td><td>94</td><td>902</td><td>Inspection 122 / Service Internal</td></tr>
-<tr><td><b>14-HS</b></td><td><span class="pill red">RED</span></td><td>86</td><td>825</td><td>Service Internal / DMV</td></tr>
-<tr><td><b>11-HS</b></td><td><span class="pill red">RED</span></td><td>77</td><td>739</td><td>Service Internal / 122</td></tr>
-<tr><td><b>15-DV</b></td><td><span class="pill red">RED</span></td><td>77</td><td>739</td><td>Service Internal / DMV</td></tr>
-<tr><td><b>01-WX</b></td><td><span class="pill red">RED</span></td><td>76</td><td>729</td><td>Service Internal / Outsourced Mech</td></tr>
-<tr><td><b>04-WD</b></td><td><span class="pill red">RED</span></td><td>72</td><td>691</td><td>Service Internal</td></tr>
-<tr><td><b>27-AQ</b></td><td><span class="pill red">RED</span></td><td>69</td><td>662</td><td>122 / Service Internal</td></tr>
-<tr><td><b>28-AU</b></td><td><span class="pill red">RED</span></td><td>67</td><td>643</td><td>DMV</td></tr>
-<tr><td><b>03-CS</b></td><td><span class="pill red">RED</span></td><td>61</td><td>585</td><td>Outsourced Mech / Internal</td></tr>
-<tr><td><b>12-FW</b></td><td><span class="pill red">RED</span></td><td>55</td><td>528</td><td>122 / Service Internal</td></tr>
-<tr><td><b>26-RD</b></td><td><span class="pill yellow">YELLOW</span></td><td>48</td><td>460</td><td>DMV / 122</td></tr>
-<tr><td><b>02-LD</b></td><td><span class="pill yellow">YELLOW</span></td><td>42</td><td>403</td><td>Outsourced Mech</td></tr>
-<tr><td><b>17-FI</b></td><td><span class="pill yellow">YELLOW</span></td><td>42</td><td>403</td><td>Service Internal</td></tr>
+<tr><td><b>10-GB</b></td><td><span class="pill red">RED</span></td><td>98</td><td>931</td><td>Inspection Processing / Service Internal</td></tr>
+<tr><td><b>05-LV</b></td><td><span class="pill red">RED</span></td><td>90</td><td>855</td><td>Inspection 122 / Service Internal</td></tr>
+<tr><td><b>14-HS</b></td><td><span class="pill red">RED</span></td><td>72</td><td>684</td><td>DMV / Service Internal</td></tr>
+<tr><td><b>27-AQ</b></td><td><span class="pill red">RED</span></td><td>69</td><td>656</td><td>Inspection 122 / Outsourced</td></tr>
+<tr><td><b>15-DV</b></td><td><span class="pill red">RED</span></td><td>68</td><td>646</td><td>DMV / Service Internal</td></tr>
+<tr><td><b>01-WX</b></td><td><span class="pill red">RED</span></td><td>67</td><td>636</td><td>No Lot / Service Internal</td></tr>
+<tr><td><b>26-RD</b></td><td><span class="pill yellow">YELLOW</span></td><td>58</td><td>551</td><td>DMV / Transit Source</td></tr>
+<tr><td><b>03-CS</b></td><td><span class="pill yellow">YELLOW</span></td><td>54</td><td>513</td><td>Inspection 122 / Outsourced Mech</td></tr>
+<tr><td><b>12-FW</b></td><td><span class="pill yellow">YELLOW</span></td><td>52</td><td>494</td><td>DMV / Service Internal</td></tr>
+<tr><td><b>11-HS</b></td><td><span class="pill yellow">YELLOW</span></td><td>51</td><td>484</td><td>Service Internal / DMV</td></tr>
+<tr><td><b>04-WD</b></td><td><span class="pill yellow">YELLOW</span></td><td>49</td><td>466</td><td>Service Internal / Inspection 122</td></tr>
+<tr><td><b>19-SA</b></td><td><span class="pill yellow">YELLOW</span></td><td>45</td><td>428</td><td>DMV / Transit Source</td></tr>
 </tbody></table></div></section>
 <section class="panel"><h2>Bucket Hotspots Across All Stores</h2><div class="wide"><table><thead><tr><th>Rank</th><th>Bucket</th><th>Units</th><th>Avg Days</th><th>Pressure</th></tr></thead><tbody>
-<tr><td>1</td><td><b>Service - Internal (Mech)</b></td><td>340</td><td>9</td><td>3060</td></tr>
-<tr><td>2</td><td><b>Service - Crossroads</b></td><td>34</td><td>51</td><td>1734</td></tr>
-<tr><td>3</td><td><b>Service - Outsourced (Mech)</b></td><td>105</td><td>13</td><td>1365</td></tr>
-<tr><td>4</td><td><b>Inspection - DMV</b></td><td>129</td><td>8</td><td>1032</td></tr>
-<tr><td>5</td><td><b>Loaner</b></td><td>23</td><td>44</td><td>1012</td></tr>
-<tr><td>6</td><td><b>Inspection - 122</b></td><td>190</td><td>4</td><td>760</td></tr>
-<tr><td>7</td><td><b>Service - Outsourced (Body)</b></td><td>32</td><td>17</td><td>544</td></tr>
+<tr><td>1</td><td><b>Service - Internal (Mech)</b></td><td>288</td><td>9</td><td>2,592</td></tr>
+<tr><td>2</td><td><b>Service - Crossroads</b></td><td>35</td><td>42</td><td>1,470</td></tr>
+<tr><td>3</td><td><b>Service - Outsourced (Mech)</b></td><td>94</td><td>14</td><td>1,316</td></tr>
+<tr><td>4</td><td><b>Inspection - DMV</b></td><td>142</td><td>7</td><td>994</td></tr>
+<tr><td>5</td><td><b>Loaner</b></td><td>22</td><td>45</td><td>990</td></tr>
+<tr><td>6</td><td><b>Service - Outsourced (Body)</b></td><td>30</td><td>17</td><td>510</td></tr>
+<tr><td>7</td><td><b>Inspection - 122</b></td><td>212</td><td>2</td><td>424</td></tr>
 <tr><td>8</td><td><b>Service - Processing</b></td><td>29</td><td>12</td><td>348</td></tr>
-<tr><td>9</td><td><b>Service - Parts Hold</b></td><td>47</td><td>7</td><td>329</td></tr>
-</tbody></table></div></section></div></body></html>
+<tr><td>9</td><td><b>Service - Parts Hold</b></td><td>53</td><td>6</td><td>318</td></tr>
+<tr><td>10</td><td><b>Inspection - Processing</b></td><td>25</td><td>5</td><td>125</td></tr>
+<tr><td>11</td><td><b>Insurance</b></td><td>3</td><td>15</td><td>45</td></tr>
+<tr><td>12</td><td><b>No Lot Location</b></td><td>34</td><td>1</td><td>34</td></tr>
+<tr><td>13</td><td><b>Service - Outsourced (Mech Hold)</b></td><td>1</td><td>16</td><td>16</td></tr>
+<tr><td>14</td><td><b>Permanent Loaner</b></td><td>1</td><td>16</td><td>16</td></tr>
+</tbody></table></div></section>
+<section class="panel"><h2>Inventory Snapshot</h2><div class="wide"><table><thead><tr><th>Metric</th><th>Friday 6/26</th></tr></thead><tbody><tr><td>Total inventory across all lot locations</td><td>6,312</td></tr><tr><td>Listed units</td><td>4,649</td></tr><tr><td>Builder / Builder-SB</td><td>289</td></tr><tr><td>Transit, Wholesale, and Unwind buckets</td><td>405</td></tr><tr><td>Monitored pre-list units</td><td>969</td></tr></tbody></table></div></section>
+</div></body></html>
